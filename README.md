@@ -1,7 +1,7 @@
 
-# Ex.No:10
-# Design an application that draws basic graphical primitives on the screen.
-
+### Ex.No:10 
+### DATE: 
+# <p align="center">Design an application that draws basic graphical primitives on the screen.</p>
 
 ## AIM:
 
@@ -36,18 +36,9 @@ Registeration Number : 212220230013
 */
 ```
 
-```java
-
-
-
-
-
-
-
-
-
 ## ActivityMain.xml
 
+```xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -69,11 +60,12 @@ Registeration Number : 212220230013
         app:layout_constraintVertical_bias="0.702" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-
+```
 
 
 ## MainActivity.java
 
+```java
 
 package com.example.graphicalprimitives;
 
@@ -119,19 +111,15 @@ public class MainActivity extends AppCompatActivity {
 }
 
 
-
-
-
 ```
 
-## <br/><br/> OUTPUT
+## OUTPUT
 
 
 <br/><br/>![Screenshot 2022-06-06 220326](https://user-images.githubusercontent.com/75235789/172205917-12c940ec-a1a1-4d48-9a1a-b41c2f4aa165.jpg)
 
+<br/>![Screenshot 2022-06-06 220306](https://user-images.githubusercontent.com/75235789/172205923-5ea131b8-4e34-47c1-b7c7-c23ddf03e8b6.jpg)
 
-
-
-## <br/><br/><br/><br/><br/><br/><br/><br/><br/>RESULT
+## RESULT
 Thus a Simple Android Application to create and design an android application that draws basic graphical primitives on the screen using Android Studio is developed and executed successfully.
 

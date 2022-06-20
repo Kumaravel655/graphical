@@ -48,7 +48,6 @@ Registeration Number : 212220230013
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="295dp"
@@ -61,16 +60,12 @@ Registeration Number : 212220230013
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 ```
-
-
 ## MainActivity.java
 
 ```java
 
 package com.example.graphicalprimitives;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -80,7 +75,6 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -110,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-
 ```
 
 ## OUTPUT
@@ -118,7 +111,6 @@ public class MainActivity extends AppCompatActivity {
 
 <br/><br/>![Screenshot 2022-06-06 220326](https://user-images.githubusercontent.com/75235789/172205917-12c940ec-a1a1-4d48-9a1a-b41c2f4aa165.jpg)
 
-<br/>![Screenshot 2022-06-06 220306](https://user-images.githubusercontent.com/75235789/172205923-5ea131b8-4e34-47c1-b7c7-c23ddf03e8b6.jpg)
 
 ## RESULT
 Thus a Simple Android Application to create and design an android application that draws basic graphical primitives on the screen using Android Studio is developed and executed successfully.

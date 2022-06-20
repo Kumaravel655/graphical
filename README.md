@@ -80,25 +80,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Bitmap bg = Bitmap.createBitmap(720, 1280, Bitmap.Config.ARGB_8888);
-
         ImageView i = (ImageView) findViewById(R.id.imageView);
         i.setBackgroundDrawable(new BitmapDrawable(bg));
-
         Canvas canvas = new Canvas(bg);
-
         Paint paint = new Paint();
         paint.setColor(Color.rgb(75,0,30));
         paint.setTextSize(50);
-
         canvas.drawText("Rectangle", 420, 150, paint);
         canvas.drawRect(400, 200, 650, 700, paint);
-
         canvas.drawText("Circle", 120, 150, paint);
         canvas.drawCircle(200, 350, 150, paint);
-
         canvas.drawText("Square", 120, 800, paint);
         canvas.drawRect(50, 850, 350, 1150, paint);
-
         canvas.drawText("Line", 480, 800, paint);
         canvas.drawLine(520, 850, 520, 1150, paint);
     }
@@ -108,8 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## OUTPUT
 
-
-<br/><br/>![Screenshot 2022-06-06 220326](https://user-images.githubusercontent.com/75235789/172205917-12c940ec-a1a1-4d48-9a1a-b41c2f4aa165.jpg)
+![Screenshot 2022-06-06 220326](https://user-images.githubusercontent.com/75235789/172205917-12c940ec-a1a1-4d48-9a1a-b41c2f4aa165.jpg)
 
 
 ## RESULT

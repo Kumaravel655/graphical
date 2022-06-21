@@ -31,7 +31,7 @@ Step 7: Save and run the application.
 ```
 /*
 Program to create and design an android application that draws basic graphical primitives on the screen.
-Developed by: Kumararavel V
+Developed by: Kumaravel V
 Registeration Number : 212220230027
 */
 ```
